@@ -13,12 +13,3 @@ const CatalogItems = ({desc, img}) => {
 
 export default CatalogItems
 
-
-// {items.map(item => {
-//     return (
-//     <div className='catalog-div' key={item.id}>
-//         <h1>{item.desc}</h1>
-//         <img src= {item.img}></img>
-//     </div>
-//     )
-// })}

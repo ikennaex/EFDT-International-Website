@@ -1,8 +1,9 @@
 .about-div {
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
+    padding: 5%;
 }
 
 .about {
@@ -30,7 +31,7 @@
     font-size: 50px;
     margin-top: 0;
     padding-top: 0;
-    color: rgb(241, 14, 14);
+    color: red;
 }
 
 @media screen and (max-width: 1050px) {
@@ -51,8 +52,22 @@
 }
 
 @media screen and (max-width: 540px) {
+    .about-div {
+        margin-top: 100px;
+    }
+
     .img-div img {
         height: 200px;
         width: 340px;
+    }
+
+    .text-div h2 {
+        line-height: 45px;
+        font-size: 43px;
+        margin-bottom: 0;
+    }
+
+    .text-div p {
+        padding-top: 0;
     }
 }

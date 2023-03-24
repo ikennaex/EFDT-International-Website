@@ -1,12 +1,15 @@
 .nav {
-    /* background-color: aqua; */
+    background-color: white;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .nav-list-ul {
     display: flex;
-    margin-right: 70px;    
+    margin-right: 70px;
 }
 
 .nav-list-ul li{
@@ -17,7 +20,7 @@
 .logo {
     width: 70px;
     height: 70px;
-    margin-left: 70px;
+    margin-left: 5%;
 }
 
 .responsive-div {
@@ -31,7 +34,6 @@
     right: 0px;
     width: 150px;
     height: 150px;
-    /* display: none; */
     background-color: white;
 }
 
@@ -56,6 +58,5 @@
 
     .responsive-div {
         display: flex;
-    }
-    
+    }    
 }

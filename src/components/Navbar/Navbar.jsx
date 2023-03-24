@@ -7,7 +7,7 @@ import {GrMenu} from "react-icons/gr"
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
-    <div className=''>
+    <div className='navbar-div'>
         <div className='nav'>
 
           <img src= {logo} className = "logo"></img>
@@ -29,10 +29,10 @@ const Navbar = () => {
               toggle && (
                 <div className='nav-menu'>
                 <ul>
-                  <a><li>Home</li></a>
-                  <a><li>About us</li></a>
-                  <a><li>Catalog</li></a>
-                  <a><li>Contact us</li></a>
+                  <a href='#home'><li>Home</li></a>
+                  <a href='#about'><li>About us</li></a>
+                  <a href='#catalog'><li>Catalog</li></a>
+                  <a href='#contact-us'><li>Contact us</li></a>
                 </ul>
                 </div>
               )

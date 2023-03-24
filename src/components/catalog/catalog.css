@@ -3,12 +3,10 @@
 }
 
 .catalog-parent-div {
-    /* margin-top: 40px; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* flex-direction: column; */
 }
 
 .catalog-text {
@@ -48,9 +46,4 @@
     padding-right: 3%;
     display: flex;
     justify-content: end;
-}
-
-@media screen and (max-width: 1050px) {
-
-
 }
